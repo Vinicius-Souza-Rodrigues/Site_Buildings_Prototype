@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    width: 96%;
+}
+.navigator {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 120px;
+    background-color: purple;
+    height: 70px;
+    padding: 10px;
+}
+.opcoes {
+    display: flex;
+    gap: 60px;
+}
+.opcoes li {
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    border-bottom: solid 2px white;
+}
+
+.barra {
+    font-size: 30px;
+}
+
+/*section*/
+
+.posts img {
+    width: 335px;
+    height: 240px;
+    border-radius: 7px;
+}
+
+section {
+    width: 96%;
+}
+
+.posts {
+    display: flex;
+    padding: 33px;
+    gap: 3%;
+    color: white;
+}
+.posts h2 {
+    border-bottom: solid 3px white;
+    padding: 5px 0px
+}
+.posts p {
+    padding: 8px 0px;
+}
+.post1, .post2, .post3 {
+    background-color: rgba(128, 0, 128, 0.747);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.ft_opt {
+    background-image: url(praça.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.contato {
+    background-color: rgba(128, 0, 128, 0.822);
+    color: white;
+    width: 500px;
+    padding: 17px;
+    border-radius: 10px;
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+span {
+    color: rgb(118, 179, 199);
+}
+
+
